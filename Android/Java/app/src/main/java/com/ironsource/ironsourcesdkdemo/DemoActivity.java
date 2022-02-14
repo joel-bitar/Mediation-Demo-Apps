@@ -33,8 +33,8 @@ import com.ironsource.mediationsdk.utils.IronSourceUtils;
 public class DemoActivity extends Activity implements RewardedVideoListener, OfferwallListener, InterstitialListener, ImpressionDataListener {
 
     private final String TAG = "DemoActivity";
-    private final String APP_KEY = "85460dcd";
-    private final String FALLBACK_USER_ID = "userId";
+    private final String APP_KEY = "df3ca511";
+    private final String FALLBACK_USER_ID = "bb4a0a18-272b-4a1b-b162-5f431a855af0";
     private Button mVideoButton;
     private Button mOfferwallButton;
     private Button mInterstitialLoadButton;
@@ -87,7 +87,7 @@ public class DemoActivity extends Activity implements RewardedVideoListener, Off
         updateButtonsState();
 
         // In order to work with IronSourceBanners you need to add Providers who support banner ad unit and uncomment next line
-         createAndloadBanner();
+         //createAndloadBanner();
     }
 
 

@@ -28,6 +28,7 @@ repositories {
         //IronSource
         url "https://android-sdk.is.com/"
     }
+    maven { url "https://sdk.tapjoy.com/"}
 }
 
 
@@ -37,6 +38,9 @@ dependencies {
     implementation 'androidx.cardview:cardview:1.0.0'
     //Add IronSource Mediation SDK dependency.
     implementation 'com.ironsource.sdk:mediationsdk:7.1.14'
+
+    implementation 'com.ironsource.adapters:tapjoyadapter:4.1.19'
+    api 'com.tapjoy:tapjoy-android-sdk:12.8.1@aar'
 
     //Add AdNetworks adapters dependencies - every adapter contains also the ad network SDK.
     //Make sure you also configure the AdNetworks in your dashboard.
